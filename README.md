@@ -1,5 +1,11 @@
 # Prompt Engineering Course Setup Guide
 
+<br>
+
+![Download from Resources tab](images/course-setup-link.png)
+
+<br>
+
 ## What We're Setting Up
 
 Before we start, here's what we'll install:
