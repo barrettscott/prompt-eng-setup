@@ -53,9 +53,13 @@ Download `prompt-eng.zip` from the Resources tab:
 
 ![Download from Resources tab](images/download-resources.png)
 
+<br>
+
 Run the commands below to create a `courses` folder and extract the course files into this folder:
 
 ![Terminal commands to unzip files](images/dir_path.png)
+
+<br>
 
 **🍎 macOS & 🐧 Linux**:
 
@@ -83,7 +87,11 @@ Expand-Archive -Path "$env:USERPROFILE\Downloads\prompt-eng.zip" -DestinationPat
 cd prompt-eng
 ```
 
+<br>
+
 ![Directory Path](images/dir_path2.png)
+
+<br>
 
 **Your folder structure should look like this**:
 
@@ -167,6 +175,8 @@ cd ~/courses/prompt-eng
 cd "$env:USERPROFILE\courses\prompt-eng"
 ```
 
+<br>
+
 **Create environment (5-15 minutes depending on internet speed)**:
 
 ```bash
@@ -185,6 +195,8 @@ conda env create -f environment.yml
 - requests (API calls)
 
 **If this fails**: Try `conda clean --all` then run the command again.
+
+<br>
 
 **Activate your environment**:
 
@@ -328,3 +340,8 @@ Don't worry! Programming setup can be tricky. Common fixes:
 1. Restart your computer
 2. Make sure you followed each step in order
 3. Copy the error message and paste it into ChatGPT or Claude—they're great at debugging setup issues
+
+<br>
+<br>
+
+
