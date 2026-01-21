@@ -51,7 +51,7 @@ Before we start, here's what we'll install:
 
 Download `prompt-eng.zip` from the Resources tab:
 
-![Download from Resources tab](images/download-resources.png)
+![Download from Resources tab](images/download-resources-pe.png)
 
 <br>
 
