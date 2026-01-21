@@ -122,7 +122,7 @@ conda --version
 
 **🍎 macOS**:
 
-1. Go to the [Miniconda download page](https://docs.conda.io/en/latest/miniconda.html)
+1. Go to the <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank">Miniconda download page</a>
 2. **Apple Silicon (M1/M2/M3)**: Download "Miniconda3 macOS Apple M1 64-bit pkg"
 3. **Intel Macs**: Download "Miniconda3 macOS Intel x86 64-bit pkg"
 4. Double-click downloaded file, follow installation steps
@@ -130,7 +130,7 @@ conda --version
 
 **🪟 Windows**:
 
-1. Go to the [Miniconda download page](https://docs.conda.io/en/latest/miniconda.html)
+1. Go to the <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank">Miniconda download page</a>
 2. Download "Miniconda3 Windows 64-bit" installer
 3. Run installer, accept defaults until "Advanced Installation Options"
 4. **Important**: Check both boxes:
