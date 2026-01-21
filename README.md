@@ -55,7 +55,7 @@ Download `prompt-eng.zip` from the Resources tab:
 
 Run the commands below to create a `courses` folder and extract the course files into this folder:
 
-![Terminal commands to unzip files](images/terminal-unzip.png)
+![Terminal commands to unzip files](images/dir_path.png)
 
 **🍎 macOS & 🐧 Linux**:
 
@@ -83,7 +83,7 @@ Expand-Archive -Path "$env:USERPROFILE\Downloads\prompt-eng.zip" -DestinationPat
 cd prompt-eng
 ```
 
-![Expected output in Windows PowerShell](images/powershell-output.png)
+![Directory Path](images/dir_path2.png)
 
 **Your folder structure should look like this**:
 
