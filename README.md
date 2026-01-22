@@ -194,8 +194,8 @@ conda env create -f environment.yml
 **What's being installed?**
 
 - Python 3.11
-- OpenAI Python SDK
 - JupyterLab
+- OpenAI Python SDK
 - python-dotenv (for API keys)
 - tiktoken (token counting)
 - requests (API calls)
