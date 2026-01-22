@@ -32,7 +32,7 @@ Before we start, here's what we'll install:
 
 <br>
 
-## Step 1: Open Your Command Interface
+## Step 1: Open Your Terminal
 
 **🍎 macOS - Terminal**:
 
