@@ -252,7 +252,7 @@ jupyter lab
 In the next two videos, you'll:
 
 1. **M01A**: Verify your Python environment and packages
-2. **M01B**: Create your OpenAI API key and `.env` file
+2. **M01B**: Create your OpenAI API key and `.env` file ($5 minimum to fund API usage)
 
 <br>
 
