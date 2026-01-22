@@ -18,10 +18,10 @@ Before we start, here's what we'll install:
 
 ## System Requirements
 
-- 🍎 **macOS**: 10.14 or newer
-- 🪟 **Windows**: 10 or newer
-- 🐧 **Linux**: Ubuntu 18.04+, CentOS 7+, or equivalent
-- **Disk Space**: At least 2GB free space
+- 🍎 **macOS**: 10.14+ (2018)
+- 🪟 **Windows**: 10+ (2015)
+- 🐧 **Linux**: Ubuntu 18.04+ (2018), CentOS 7+, or equivalent
+- **Disk Space**: 2GB free
 - **Internet**: Required for downloads
 
 <br>
