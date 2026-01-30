@@ -4,14 +4,14 @@ Every time you want to work on the course:
 
 **🍎 macOS & 🐧 Linux:**
 ```bash
-cd ~/Documents/Courses/prompt-eng
+cd ~/courses/prompt-eng
 conda activate prompt-eng
 jupyter lab
 ```
 
 **🪟 Windows:**
 ```powershell
-cd "$env:USERPROFILE\Documents\Courses\prompt-eng"
+cd "$env:USERPROFILE\courses\prompt-eng"
 conda activate prompt-eng
 jupyter lab
 ```
