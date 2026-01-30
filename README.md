@@ -61,7 +61,7 @@ Download `prompt-eng.zip` from the Resources tab:
 
 <br>
 
-Run the commands below to create a `Courses` folder and extract the course files into this folder:
+Run the commands below to create a `courses` folder and extract the course files into this folder:
 
 ![Terminal commands to unzip files](images/dir_path.png)
 
@@ -69,9 +69,9 @@ Run the commands below to create a `Courses` folder and extract the course files
 
 **🍎 macOS & 🐧 Linux**:
 ```bash
-mkdir -p ~/Documents/Courses
+mkdir -p ~/courses
 
-cd ~/Documents/Courses
+cd ~/courses
 
 unzip ~/Downloads/prompt-eng.zip
 
@@ -80,11 +80,11 @@ cd prompt-eng
 
 **🪟 Windows**:
 ```powershell
-cd "$env:USERPROFILE\Documents"
+cd "$env:USERPROFILE"
 
-mkdir -Force Courses
+mkdir -Force courses
 
-cd Courses
+cd courses
 
 Expand-Archive -Path "$env:USERPROFILE\Downloads\prompt-eng.zip" -DestinationPath . -Force
 
@@ -167,12 +167,12 @@ If you see a version number (e.g., `conda 24.1.2`), you are ready for Step 4!
 
 **🍎 macOS & 🐧 Linux**:
 ```bash
-cd ~/Documents/Courses/prompt-eng
+cd ~/courses/prompt-eng
 ```
 
 **🪟 Windows**:
 ```powershell
-cd "$env:USERPROFILE\Documents\Courses\prompt-eng"
+cd "$env:USERPROFILE\courses\prompt-eng"
 ```
 
 <br>
@@ -215,7 +215,7 @@ prompt-eng            *  /home/user/miniconda3/envs/prompt-eng
 
 **Your terminal prompt should also change to**:
 ```
-(prompt-eng) user@computer:~/Documents/Courses/prompt-eng$
+(prompt-eng) user@computer:~/courses/prompt-eng$
 ```
 
 <br>
@@ -284,7 +284,7 @@ In the next two videos, you'll:
 **🪟 Windows**:
 
 - **Permission errors**: Try running PowerShell as Administrator
-- **Path issues**: Your files are in `C:\Users\YourName\Documents\Courses\prompt-eng`
+- **Path issues**: Your files are in `C:\Users\YourName\courses\prompt-eng`
 
 **🐧 Linux**:
 
