@@ -61,18 +61,17 @@ Download `prompt-eng.zip` from the Resources tab:
 
 <br>
 
-Run the commands below to create a `courses` folder and extract the course files into this folder:
+Run the commands below to create a `Courses` folder and extract the course files into this folder:
 
 ![Terminal commands to unzip files](images/dir_path.png)
 
 <br>
 
 **🍎 macOS & 🐧 Linux**:
-
 ```bash
-mkdir -p ~/courses
+mkdir -p ~/Documents/Courses
 
-cd ~/courses
+cd ~/Documents/Courses
 
 unzip ~/Downloads/prompt-eng.zip
 
@@ -80,13 +79,12 @@ cd prompt-eng
 ```
 
 **🪟 Windows**:
-
 ```powershell
-cd "$env:USERPROFILE"
+cd "$env:USERPROFILE\Documents"
 
-mkdir -Force courses
+mkdir -Force Courses
 
-cd courses
+cd Courses
 
 Expand-Archive -Path "$env:USERPROFILE\Downloads\prompt-eng.zip" -DestinationPath . -Force
 
@@ -110,7 +108,6 @@ cd prompt-eng
 Conda installs Python and manages all the libraries we'll need for the course.
 
 **Check if Conda is already installed (all platforms)**:
-
 ```bash
 conda --version
 ```
@@ -141,13 +138,13 @@ conda --version
 **🐧 Linux**:
 
 1. Download installer:
-   ```bash
+```bash
    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-   ```
+```
 2. Run installer:
-   ```bash
+```bash
    bash Miniconda3-latest-Linux-x86_64.sh
-   ```
+```
 3. Accept license, choose install location (default is fine)
 4. When asked "Do you wish the installer to initialize Miniconda3?", type `yes`
 5. Close terminal and reopen it
@@ -156,7 +153,6 @@ conda --version
 ### ✅ Verify Installation (Everyone)
 
 Before proceeding, close your terminal/PowerShell, reopen it, and run:
-
 ```bash
 conda --version
 ```
@@ -170,21 +166,18 @@ If you see a version number (e.g., `conda 24.1.2`), you are ready for Step 4!
 **Navigate to course folder**:
 
 **🍎 macOS & 🐧 Linux**:
-
 ```bash
-cd ~/courses/prompt-eng
+cd ~/Documents/Courses/prompt-eng
 ```
 
 **🪟 Windows**:
-
 ```powershell
-cd "$env:USERPROFILE\courses\prompt-eng"
+cd "$env:USERPROFILE\Documents\Courses\prompt-eng"
 ```
 
 <br>
 
 **Create environment (5-15 minutes depending on internet speed)**:
-
 ```bash
 conda env create -f environment.yml
 ```
@@ -205,28 +198,24 @@ conda env create -f environment.yml
 <br>
 
 **Activate your environment**:
-
 ```bash
 conda activate prompt-eng
 ```
 
 **Verify it worked**:
-
 ```bash
 conda env list
 ```
 
 ✅ You should see `prompt-eng` marked with an asterisk (*). Example output (paths vary by OS):
-
 ```
 base                     /home/user/miniconda3
 prompt-eng            *  /home/user/miniconda3/envs/prompt-eng
 ```
 
 **Your terminal prompt should also change to**:
-
 ```
-(prompt-eng) user@computer:~/courses/prompt-eng$
+(prompt-eng) user@computer:~/Documents/Courses/prompt-eng$
 ```
 
 <br>
@@ -234,7 +223,6 @@ prompt-eng            *  /home/user/miniconda3/envs/prompt-eng
 ## Step 5: Launch JupyterLab
 
 **Start JupyterLab (all platforms)**:
-
 ```bash
 jupyter lab
 ```
@@ -296,7 +284,7 @@ In the next two videos, you'll:
 **🪟 Windows**:
 
 - **Permission errors**: Try running PowerShell as Administrator
-- **Path issues**: Your files are in `C:\Users\YourName\courses\prompt-eng`
+- **Path issues**: Your files are in `C:\Users\YourName\Documents\Courses\prompt-eng`
 
 **🐧 Linux**:
 
@@ -318,5 +306,3 @@ Don't worry! Programming setup can be tricky. Common fixes:
 
 <br>
 <br>
-
-
