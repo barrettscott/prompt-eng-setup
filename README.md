@@ -18,9 +18,9 @@ Before we start, here's what we'll install:
 
 ## System Requirements
 
-- 🍎 **macOS**: 10.14+ (2018)
-- 🪟 **Windows**: 10+ (2015)
-- 🐧 **Linux**: Ubuntu 18.04+ (2018), CentOS 7+, or equivalent
+- 🍎 **macOS**: 12.1+ for Apple Silicon; Intel Macs can use the last available Intel installer
+- 🪟 **Windows**: 10 version 1809+ (October 2018 Update) or later
+- 🐧 **Linux**: Ubuntu 20.04+, Red Hat/AlmaLinux/Rocky Linux 8+, or equivalent
 - **Disk Space**: 2GB free
 - **Internet**: Required for downloads
 
@@ -120,8 +120,8 @@ conda --version
 **🍎 macOS**:
 
 1. Go to the <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank">Miniconda download page</a>
-2. **Apple Silicon (M1/M2/M3)**: Download "Miniconda3 macOS Apple M1 64-bit pkg"
-3. **Intel Macs**: Download "Miniconda3 macOS Intel x86 64-bit pkg"
+2. **Apple Silicon (M1/M2/M3/M4)**: Download "Miniconda3 macOS Apple M1 64-bit pkg"
+3. **Intel Macs**: The Intel installer is no longer listed on the main page — use this direct installer link: <a href="https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg" target="_blank">Miniconda3-latest-MacOSX-x86_64.pkg</a>
 4. Double-click downloaded file, follow installation steps
 5. Close Terminal completely and reopen it
 
@@ -131,7 +131,7 @@ conda --version
 2. Download "Miniconda3 Windows 64-bit" installer
 3. Run installer, accept defaults until "Advanced Installation Options"
 4. **Important**: Check both boxes:
-   - ☑️ "Add Miniconda3 to my PATH environment variable" **(Ignore the red "Not Recommended" warning—we need this!)**
+   - ☑️ "Add Miniconda3 to my PATH environment variable" **(We're checking this box so `conda` works directly in PowerShell throughout the course — the installer labels this "not recommended," but we are doing it on purpose for a simpler workflow.)**
    - ☑️ "Register Miniconda3 as my default Python 3.x"
 5. Complete installation, close PowerShell completely and reopen it
 
@@ -213,10 +213,7 @@ base                     /home/user/miniconda3
 prompt-eng            *  /home/user/miniconda3/envs/prompt-eng
 ```
 
-**Your terminal prompt should also change to**:
-```
-(prompt-eng) user@computer:~/courses/prompt-eng$
-```
+**Your terminal prompt should now show `(prompt-eng)` at the beginning.**
 
 <br>
 
@@ -261,7 +258,7 @@ In the next two videos, you'll:
 ### Conda activate doesn't work
 
 - Close terminal and reopen it
-- Run `conda init powershell` (Windows) or `conda init bash` (macOS/Linux)
+- Run `conda init zsh` (macOS) or `conda init bash` (Linux) or `conda init powershell` (Windows)
 - Close and reopen terminal again, then retry `conda activate prompt-eng`
 
 ### JupyterLab won't start
