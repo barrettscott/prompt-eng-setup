@@ -127,13 +127,12 @@ conda --version
 
 **🪟 Windows**:
 
-1. Go to the <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank">Miniconda download page</a>
-2. Download "Miniconda3 Windows 64-bit" installer
-3. Run installer, accept defaults until "Advanced Installation Options"
-4. **Important**: Check both boxes:
+1. Go to the <a href="https://www.anaconda.com/docs/getting-started/miniconda/install/windows-gui-install" target="_blank">Miniconda Windows installer page</a> and follow the instructions there to download the **Windows 64-Bit Graphical Installer**
+2. Run installer, accept defaults until "Advanced Installation Options"
+3. **Important**: Check both boxes:
    - ☑️ "Add Miniconda3 to my PATH environment variable" **(We're checking this box so `conda` works directly in PowerShell throughout the course — the installer labels this "not recommended," but we are doing it on purpose for a simpler workflow.)**
    - ☑️ "Register Miniconda3 as my default Python 3.x"
-5. Complete installation, close PowerShell completely and reopen it
+4. Complete installation, close PowerShell completely and reopen it
 
 **🐧 Linux**:
 
