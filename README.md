@@ -27,12 +27,6 @@ You don't need to install anything or get an API key to take this course. Watchi
 
 <br>
 
-## Change Your Mind Later?
-
-Setup can happen whenever you want. If you start by watching and later decide you want to run the code, come back to this guide at any point — the rest of the course will work from there.
-
-<br>
-
 ## What We're Setting Up
 
 Before we start, here's what we'll install:
