@@ -6,17 +6,30 @@
 
 <br>
 
-## Before You Start
+## Local Setup Is Optional
 
-**Local setup covers 3 videos and takes about an hour:**
+You don't need to install anything or get an API key to take this course. Watching the lectures is enough to learn how to write effective prompts — you'll see the code, outputs, and explanations on screen either way.
 
-1. Course Setup Guide (this document)
-2. M01A: Setup Test — verify your environment works
-3. M01B: OpenAI Setup — create your API key and make your first call
+<br>
 
-Set aside about an hour, more if you're new to Python or JupyterLab.
+## Which Path Is Right For You?
 
-**Prefer to skip local setup?** If you're taking this course through a **Udemy Personal Plan, Udemy Business, or Udemy Business Pro** subscription, the notebooks are included as **in-course labs** — a browser-based environment that opens right in the lecture. No local install needed.
+- **🎥 Watch only** — Skip this guide entirely. No setup, no API key required.
+
+- **🟣 Watch + run in the Udemy In-Course Labs** (Personal Plan, Udemy Business, or Udemy Business Pro) — The notebooks are included as in-course labs — a browser-based environment that opens during each video. No local install needed.
+
+- **💻 Watch + run locally (this guide)** — 3 videos, about an hour:
+  1. Course Setup Guide (this document)
+  2. M01A: Setup Test
+  3. M01B: OpenAI Setup
+
+  Set aside about an hour, more if you're new to Python or JupyterLab.
+
+<br>
+
+## Change Your Mind Later?
+
+Setup can happen whenever you want. If you start by watching and later decide you want to run the code, come back to this guide at any point — the rest of the course will work from there.
 
 <br>
 
