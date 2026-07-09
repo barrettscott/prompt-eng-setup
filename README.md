@@ -6,6 +6,11 @@
 
 <br>
 
+> [!NOTE]
+> The two sections below ("Local Setup Is Optional" and "Which Path Is Right For You?") were added after the setup video was recorded. If you're following along with the video, jump ahead to **What We're Setting Up**.
+
+<br>
+
 ## Local Setup Is Optional
 
 You don't need to install anything or get an API key to take this course. Watching the lectures is enough to learn how to write effective prompts — you'll see the code, outputs, and explanations on screen either way.
