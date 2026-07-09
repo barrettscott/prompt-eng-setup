@@ -6,6 +6,20 @@
 
 <br>
 
+## Before You Start
+
+**Local setup covers 3 videos and takes about an hour:**
+
+1. Course Setup Guide (this document)
+2. M01A: Setup Test — verify your environment works
+3. M01B: OpenAI Setup — create your API key and make your first call
+
+Set aside about an hour, more if you're new to Python or JupyterLab.
+
+**Prefer to skip local setup?** If you're taking this course through a **Udemy Personal Plan, Udemy Business, or Udemy Business Pro** subscription, the notebooks are included as **in-course labs** — a browser-based environment that opens right in the lecture. No local install needed.
+
+<br>
+
 ## What We're Setting Up
 
 Before we start, here's what we'll install:
